@@ -7,7 +7,6 @@ import org.junit.Test;
 /**
  * @author Jack.Z.Tang
  * @date 2017/05/17
- * @company Newegg Tech (China) Co, Ltd
  */
 public class TestMatching {
     private final static String source = "BBC ABCDABABCDABCDABDE";
