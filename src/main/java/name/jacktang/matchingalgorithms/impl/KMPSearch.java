@@ -8,6 +8,12 @@ import name.jacktang.matchingalgorithms.StringSearch;
  */
 public class KMPSearch implements StringSearch {
 
+    /**
+     * eg. A B C A B D
+     *    -1 0 0 0 1 2
+     * @param pattern pattern string
+     * @return next table of pattern string
+     */
     private int[] calculateNext(String pattern) {
         int[] next = new int[pattern.length()];
 
